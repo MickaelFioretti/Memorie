@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: gameOver;
+    src: url("../font/Sushi\ Moshi.ttf") format("truetype");
+}
+
+.font {
+    font-family: gameOver;
+}
+
+img {
+    width: 25%;
+}
+
+body {
+    background-image: url(../img/background/5788.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whitesmoke {
+    color: whitesmoke;
+}
+
+.deeppink {
+    color: deeppink;
+}

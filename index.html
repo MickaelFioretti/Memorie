@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Informer Bootstrap des dimension des ecran -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- lien bootstrap -->
+    <link rel="stylesheet" type="text/css" href="./assets/lib/bootstrap/bootstrap.min.css?version=4.5.0">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css?version=1.0.0">
+
+    <link rel="icon" type="image/png" href="./assets/img/dosDeCarte.png">
+
+    <title>Memoris</title>
+
+</head>
+
+<body>
+    <main class="container">
+
+        <article class="row col-8 offset-2 justify-content-center mt-3">
+            <h3 class="whitesmoke font">jeux du memoris</h3>
+        </article>
+
+        <section class="row">
+
+            <article id="createImg" class="col-6 offset-3 justify-content-center mt-3">
+            </article>
+
+        </section>
+
+        <article class="row col-8 offset-2 justify-content-center mt-3">
+            <button type="button" id="replay" hidden="true" class="btn btn-light deeppink" onclick="window.location.reload()">replay</button>
+        </article>
+
+    </main>
+
+    <script type="text/javascript" src="./assets/js/global.js"></script>
+    <script type="text/javascript" src="./assets/js/generateCards.js"></script>
+    <script type="text/javascript" src="./assets/js/gameMemories.js"></script>
+    <script type="text/javascript">gameplayDuJeux ();</script>
+</body>
+
+</html>
